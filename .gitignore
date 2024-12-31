@@ -150,3 +150,17 @@ media/result_sheet/*
 # Custom
 dump.rdb
 *.DS_Store
+/.vs/django-lms-bin/FileContentIndex/10e02609-b4c1-4185-9cc4-7d168d6412ce.vsidx
+/.vs/django-lms-bin/FileContentIndex/4799fb75-e1d0-48b4-80c8-435feeb58f2e.vsidx
+/.vs/django-lms-bin/FileContentIndex/7317b3e0-b16b-40bc-b249-78f9514a1bf6.vsidx
+/.vs/django-lms-bin/FileContentIndex/4007a292-9f50-4bf6-aab1-936dc48a900c.vsidx
+/.vs/django-lms-bin/FileContentIndex/5ecea9be-2f3f-4645-b0f5-9acaf4477552.vsidx
+/.vs/django-lms-bin/FileContentIndex/f6ec5490-f4b1-4825-8226-c3c311ffd332.vsidx
+/.vs/django-lms-bin/FileContentIndex/3447bd5e-a124-4b9f-8db9-8ed27e029311.vsidx
+/.vs/django-lms-bin/FileContentIndex/51c8fcdc-8f68-4563-b02b-5c64f67fbbde.vsidx
+/.vs/django-lms-bin/FileContentIndex/f7fb1bdc-0016-493a-8a39-23e5cee64350.vsidx
+/.vs/django-lms-bin/FileContentIndex/5417a41d-16cc-4ba0-ae10-2ea78d4a1f17.vsidx
+/.vs/django-lms-bin/FileContentIndex/f8b5fb58-b9de-4ab4-8630-9eeeb7a43d6a.vsidx
+/.vs/django-lms-bin/FileContentIndex/a8dac378-9f20-44ac-9aaf-5d5ff9299d44.vsidx
+/.vs/django-lms-bin/FileContentIndex/4c44ea03-da6a-45e0-aad5-24f2b58a6d3d.vsidx
+*.vsidx
