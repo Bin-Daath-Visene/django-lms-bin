@@ -55,15 +55,15 @@ class SemesterForm(forms.ModelForm):
         ),
         label="is current semester ?",
     )
-    session = forms.ModelChoiceField(
-        queryset=Session.objects.all(),
-        widget=forms.Select(
-            attrs={
-                "class": "browser-default custom-select",
-            }
-        ),
-        required=True,
-    )
+    #session = forms.ModelChoiceField(
+    #    queryset=Session.objects.all(),
+    #    widget=forms.Select(
+    #        attrs={
+    #            "class": "browser-default custom-select",
+    #        }
+    #    ),
+    #    required=True,
+    #)
 
     next_semester_begins = forms.DateTimeField(
         widget=forms.TextInput(
@@ -77,4 +77,4 @@ class SemesterForm(forms.ModelForm):
 
     class Meta:
         model = Semester
-        fields = ["semester", "is_current_semester", "session", "next_semester_begins"]
+        fields = ["semester", "is_current_semester", "next_semester_begins"]

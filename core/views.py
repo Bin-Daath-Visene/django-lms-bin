@@ -216,8 +216,8 @@ def semester_add_view(request):
             )  # returns string of 'True' if the user selected Yes
             if data == "True":
                 semester = form.data.get("semester")
-                ss = form.data.get("session")
-                session = Session.objects.get(pk=ss)
+                ss = 1#ss = form.data.get("session")
+                session = Session.objects.get(pk=1)#session = Session.objects.get(pk=ss)
                 try:
                     if Semester.objects.get(semester=semester, session=ss):
                         messages.error(
@@ -247,7 +247,7 @@ def semester_add_view(request):
                                 unset_session.is_current_session = False
                                 unset_session.save()
 
-                    new_session = request.POST.get("session")
+                    new_session = 1#new_session = request.POST.get("session")
                     set_session = Session.objects.get(pk=new_session)
                     set_session.is_current_session = True
                     set_session.save()
@@ -280,7 +280,7 @@ def semester_update_view(request, pk):
             new_session = request.POST.get("session")
             form = SemesterForm(request.POST, instance=semester)
             if form.is_valid():
-                set_session = Session.objects.get(pk=new_session)
+                set_session = Session.objects.get(pk=1)#set_session = Session.objects.get(pk=new_session)
                 set_session.is_current_session = True
                 set_session.save()
                 form.save()

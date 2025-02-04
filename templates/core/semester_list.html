@@ -39,7 +39,7 @@
                 <th>#</th>
                 <th> Semester </th>
                 <th> Is Current semester </th>
-                <th> Session </th>
+                <!--<th> Session </th> -->
                 <th> Next Semester Begins </th>
                 {% if request.user.is_superuser %}
                 <th> Actions </th>
@@ -59,7 +59,7 @@
                     <i class="icon-times-circle"></i>
                     {% endif %}
                 </th>
-                <td>{{ semester.session }}</td>
+                <!-- <td>{{ semester.session }}</td> -->
                 <td>{{ semester.next_semester_begins }}</td>
 
                 {% if request.user.is_superuser %}

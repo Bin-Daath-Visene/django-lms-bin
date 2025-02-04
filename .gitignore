@@ -148,4 +148,5 @@ media/result_sheet/*
 !media/result_sheet/README.txt
 
 # Custom
-
+dump.rdb
+*.DS_Store

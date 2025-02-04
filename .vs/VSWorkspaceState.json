@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\config",
+    "\\core"
   ],
   "PreviewInSolutionExplorer": false
 }
